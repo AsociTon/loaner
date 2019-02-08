@@ -1,0 +1,110 @@
+body
+{
+   background-color: floralwhite;
+}
+
+.bg{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    width: 150px;
+    height: 150px;
+    background-image: url('coin.svg');
+    opacity: 0.1;
+    transform: rotateZ(-45deg);
+}
+
+.bg2{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 150px;
+    height: 150px;
+    background-image: url('gold.svg');
+    opacity: 0.2;
+    transform: rotateZ(30deg);
+}
+
+.bg3{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 150px;
+    height: 150px;
+    background-image: url('accounting.svg');
+    opacity: 0.2;
+/*    transform: rotateZ(30deg);*/
+}
+
+.bg4{
+    position: absolute;
+    top: 5%;
+    left: 60%;
+    width: 150px;
+    height: 150px;
+    background-image: url('money.svg');
+    opacity: 0.2;
+    transform: rotateZ(-30deg);
+}
+
+.bg5{
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    width: 150px;
+    height: 150px;
+    background-image: url('mastercard.svg');
+    opacity: 0.3;
+    transform: rotateZ(30deg);
+}
+
+.bg6{
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    width: 150px;
+    height: 150px;
+    background-image: url('money-bag.svg');
+    opacity: 0.2;
+    transform: rotateZ(45deg);
+}
+
+.bg7{
+    position: absolute;
+    top: 55%;
+    left: 75%;
+    width: 150px;
+    height: 150px;
+    background-image: url('india.svg');
+    opacity: 0.2;
+    transform: rotateZ(30deg);
+}
+
+.bg8{
+    position: absolute;
+    top: 15%;
+    left: 75%;
+    width: 150px;
+    height: 150px;
+    background-image: url('pay.svg');
+    opacity: 0.2;
+    transform: rotateZ(-45deg);
+}
+
+.bg9{
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    width: 150px;
+    height: 150px;
+    background-image: url('profit.svg');
+    opacity: 0.2;
+    transform: rotateZ(0deg);
+}
+
+.loginBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 5px solid grey;
+}
