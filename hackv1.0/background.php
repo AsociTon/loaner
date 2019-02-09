@@ -1,0 +1,10 @@
+<div class="bg"></div>
+<div class="bg2"></div>
+<div class="bg3"></div>
+<div class="bg4"></div>
+<div class="bg5"></div>
+<div class="bg6"></div>
+<div class="bg7"></div>
+<div class="bg8"></div>
+<div class="bg9"></div>
+<div class="loginBox"></div>
