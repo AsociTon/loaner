@@ -4,18 +4,13 @@
     src: url('Boogaloo-Regular.ttf');
 }
 
-@font-face
-{
-    font-family: myFont2;
-    src: url('Banbury DEMO.otf');
-}
-
 body
 {
    background-color: floralwhite;
     margin: 0;
     padding: 0;
     font-family: myFont;
+    font-size: 19px;
 }
 
 .adjust{
@@ -164,6 +159,7 @@ h2{
     opacity: 0.5;
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.5);
+/*    text-align: center;*/
 }
 
 .loginBox .inputBox
@@ -173,53 +169,66 @@ h2{
     margin: 60px 20px;
 }
 
-.loginBox .inputBox input
+
+.loginBox .name input
 {
-    width: 100%;
-    padding: 10px 0;
-    font-size: 15px;
-    color: black;
-    letter-spacing: 2;
-/*    margin-bottom: 30px;*/
-    border: none;
-    border-bottom: 3px solid #000000;
-    outline: none;
-    background: transparent;
+    margin-left: 50px;
+    width: auto;
 }
 
-.loginBox .inputBox label
+.loginBox .ownership select
 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    letter-spacing: 2;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #000000;
-    pointer-events: none;
-    transition: .5s;
+    margin-left: 25px;
+    width: auto;
 }
 
-.loginBox .inputBox input:focus ~label,
-.loginBox .inputBox input:valid ~label
+.loginBox .annual_income input
 {
-    top: -18px;
-    left: 0;
-    color: #000000;
-    font-size: 12px;
+/*    margin-left: 50px;*/
+    width: auto;
 }
+
+.loginBox .loan_amount input
+{
+    margin-left: 10px;
+    width: auto;
+}
+
+.loginBox .term select
+{
+    margin-left: 56px;
+    width: auto;
+}
+
+.loginBox .interest_rate input
+{
+    margin-left: 10px;
+    width: auto;
+}
+
+.loginBox .DTI input
+{
+    margin-left: 63px;
+    width: auto;
+}
+
+.loginBox .total_payment input
+{
+    margin-left: 5px;
+    width: auto;
+}
+
 .loginBox input[type="submit"]
 {
     position: absolute;
     left: 40%;
     height: 50px;
     width: 100px;
-/*    background: #000000;*/
     border: 2px solid black 10px;
     border-radius: 20px;
     outline: none;
     color: #fff;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     background: #000000;
 }

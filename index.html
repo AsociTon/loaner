@@ -4,16 +4,13 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>LOANER</title>
+        <title>LOANER|INFO</title>
         <meta name="description" content="An interactive getting started guide for Brackets.">
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="favicon.ico">
     </head>
     
     <body>
-          <header>
-              <h2>LOGIN</h2>
-          </header>
-        
            <div class="adjust"></div>
            <div class="adjust2"></div>
            <div class="bg"></div>
@@ -26,17 +23,58 @@
            <div class="bg8"></div>
            <div class="bg9"></div>
            <div class="loginBox">
-                  <form>
-                      <div class="inputBox">
-                          <input type="text" name="" required="">
-                          <label>Staff ID</label>
-                      </div>
-                      <div class="inputBox">
-                          <input type="password" name="" required="">
-                          <label>Password</label>
-                      </div>
-                      <input type="submit" name="" value="Submit">
-                  </form>
+        <form method="post">
+            <div class="name">
+            <label>Name:</label>
+            <input type="text" class="name" name="name">
+            </div>
+            <br>
+            <div class="ownership">
+            <label>Ownership:</label>
+            <select name="ownership">
+                <option value="010">Own</option>
+                <option value="001">Rent</option>
+                <option value="100">Mortgage</option>
+            </select>
+            </div>
+            <br>
+            <div class="annual_income">
+            <label>Annual Income:</label>
+            <input type="text" name="annual_income">
+            </div>
+            <br>
+            <div class="loan_amount">
+            <label>Loan Amount:</label>
+            <input type="text" name="loan_amount">
+            </div>
+            <br>
+            <div class="term">
+            <label>Term:</label>
+            <select name="term">
+                <option value="1">36 Months</option>
+                <option value="2">60 Months</option>
+            </select>
+            </div>
+            <br>
+            <div class="interest_rate">
+            <label>Interest Rate:</label>
+            <input type="text" name="interest_rate">
+            </div>
+            <br>
+            <div class="DTI">
+            <label>DTI:</label>
+            <input type="text" name="DTI">
+            </div>
+            <br>
+            <div class="total_payment">
+            <label>Total Payment:</label>
+            <input type="text" name="total_payment">
+            </div>
+            <br>
+            <div class="Analyze">
+            <input type="Submit" name="Analyze">
+            </div>
+        </form>
            </div>
     </body>
 </html>
